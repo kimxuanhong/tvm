@@ -1,0 +1,59 @@
+.topnav {
+    overflow: hidden;
+  }
+.banner{
+      background : linear-gradient(to left, #008efc, yellow);
+  background : -moz-linear-gradient(left, #008efc, yellow);
+  background : -webkit-linear-gradient(left, #008efc, yellow);
+  background : -o-linear-gradient(left, #008efc, yellow);
+  opacity: 0.9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0px;
+    text-decoration: none;
+}
+.topnav a {
+  padding-right: 15px;
+}
+
+
+.header{
+  background : linear-gradient(to left, #008efc, yellow);
+  background : -moz-linear-gradient(left, #008efc, yellow);
+  background : -webkit-linear-gradient(left, #008efc, yellow);
+  background : -o-linear-gradient(left, #008efc, yellow);
+  padding-bottom: 10px;
+  padding-top: 10px;
+  opacity: 0.9;
+
+}
+.header .search-container {
+  float: right;
+}
+
+.header input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+
+}
+
+.header .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.header .search-container button:hover {
+  background: #ccc;
+}

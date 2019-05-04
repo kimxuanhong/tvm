@@ -1,0 +1,117 @@
+.menu-category{
+  display: none;
+  position: fixed;
+/*  background-color: #f9f9f9;*/
+  min-width: 100%;
+  border-top: 2px solid #E95A13;
+  z-index: 2;
+  bottom: 55px;
+  background: #E95A13;
+  opacity: 0.95;
+}
+
+.menu-category a {
+  color:#f9f9f9;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu-category a:hover {
+  background:#E95A13;
+  color: white;
+}
+
+.navbar {
+	border-radius: 0px;
+	margin-bottom: 0px;
+	border:0px;
+}
+.navbar-inverse {
+ /* background : linear-gradient(to left, #E95A13, yellow);
+  background : -moz-linear-gradient(left, #E95A13, yellow);
+  background : -webkit-linear-gradient(left, #E95A13, yellow);
+  background : -o-linear-gradient(left, #E95A13, yellow);*/
+  background: #E95A13;
+  opacity: 0.97;
+  z-index: 1;
+  font-weight: 700;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #E95A13;
+}
+
+.navbar-default{
+  background-color: #E95A13;
+  display: none;
+  opacity: 0.95;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-default .navbar-brand {
+  color: #fff;
+}
+
+.nav.navbar-nav.navbar-center {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+.navbar-inverse .navbar-nav>li>a {
+	color: #fff;
+}
+.navbar-inverse .navbar-brand {
+	color: #fff;
+}
+
+.navbar-inverse .navbar-toggle{
+	border: 0;
+
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus{
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus{
+	background-color: transparent;
+}
+
+
+.btn-dangtin{
+  background: #fff;
+  padding: 5px!important  ;
+  color: #E95A13 !important;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.navbar-inverse .navbar-nav>li>a.btn-dangtin:hover{
+  background: #fff;
+  color: #94CF69!important;
+}
+
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+     color: #FFFFFF; 
+}
+
+
+@media screen and (max-width: 767px){   
+  .navbar-default{
+    display: block;
+  }
+  .navbar-inverse{
+    background: #E95A13;
+    opacity: 0.95;
+  }
+
+  a.btn-dangtin{
+    border-radius: 1px;
+  }
+}

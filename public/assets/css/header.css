@@ -1,0 +1,74 @@
+.topnav {
+    overflow: hidden;
+    padding-left: 40px;
+  }
+.banner{
+  background : linear-gradient(to left, #FFFFFF, transparent);
+  background : -moz-linear-gradient(left, #FFFFFF, transparent);
+  background : -webkit-linear-gradient(left, #FFFFFF, transparent);
+  background : -o-linear-gradient(left, #FFFFFF, transparent);
+  opacity: 0.9;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 5px 0px;
+    /*text-decoration: none;*/
+}
+.topnav a {
+  padding-right: 15px;
+} 
+@media screen and (max-width: 767px){   
+    .img_banner{      
+        content:url("../../images/bg1.png");
+    } 
+    .header .container-fluid,.banner{
+      opacity: unset;
+      background-color :#FFFFFF
+    }
+
+  .banner/*,.navbar-inverse */{
+    display: none;
+  }
+/*.header{
+    border-bottom: 2px solid #008efc;
+}*/
+}
+
+
+.header{
+  background : linear-gradient(to left, #FFFFFF, transparent);
+  background : -moz-linear-gradient(left, #FFFFFF, transparent);
+  background : -webkit-linear-gradient(left, #FFFFFF, transparent);
+  background : -o-linear-gradient(left, #FFFFFF, transparent);
+}
+
+
+
+.header .search-container {
+  float: right;
+}
+
+.header input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+
+}
+
+.header .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.header .search-container button:hover {
+  background: #ccc;
+}
